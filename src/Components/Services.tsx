@@ -1,5 +1,5 @@
 import "../styles/Services.css"
-function Services({service,image,text,id}){
+function Services({service,image,text,id}:{service:string,image:string,text:string, id: string}){
    return(
     <>
         <div className="servi">
