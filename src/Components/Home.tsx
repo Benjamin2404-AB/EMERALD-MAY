@@ -4,6 +4,7 @@ import "../styles/Button.css"
 import Button from './Buttons';
 import Services from './Services';
 import { ServicesList } from './ServicesList';
+import "@fontsource/poppins/800.css";
 
 function Home() {
     const bgImage =  `linear-gradient(rgb(27, 49, 4),rgba(27, 49, 4,0.8)),url(${BackgroundImg})`;
