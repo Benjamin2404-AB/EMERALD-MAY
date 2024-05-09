@@ -12,11 +12,11 @@ export default function PrimaryButton({
 
 }:{
   color: string,
-  border : number,
+  border : string,
   borderColor: string,
-  fontSize: number,
+  fontSize: string,
   buttonText:string,
-  borderRadius: number,
+  borderRadius: string,
   className: string , 
 
 
