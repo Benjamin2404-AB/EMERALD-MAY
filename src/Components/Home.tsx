@@ -1,4 +1,5 @@
 import BackgroundImg from '../assets/tb.jpg'
+import logoImg from '../assets/eme2.png'
 import "../styles/Home.css"
 import "../styles/Button.css"
 import Button from './Buttons';
@@ -8,6 +9,7 @@ import "@fontsource/poppins/800.css";
 
 function Home() {
     const bgImage =  `linear-gradient(rgb(27, 49, 4),rgba(27, 49, 4,0.8)),url(${BackgroundImg})`;
+    const logImage = `url(${logoImg})`;
   return (
     <div className="Homebackground"style={{backgroundImage: bgImage}}>
       
@@ -59,7 +61,7 @@ function Home() {
           }
         </div>
 
-        <div className="section2">
+        <div className="section2" style={{backgroundImage:logImage}}>
           
           <div className="text">
  

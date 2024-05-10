@@ -92,13 +92,16 @@
     background-color: #ffffff;
     position: relative;
     height: 600px;
-    background-size: cover;
+    background-size:300px;
+    background-position:0px 130px;
+    background-blend-mode:multiply;
+    
   
     top: 0;
     left: 0;
     background-repeat: no-repeat;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
     font-family: Poppins;
     justify-content: center;
     align-self: center;
@@ -157,7 +160,7 @@
       position: relative;
       height: 600px;
       background-size: cover;
-      margin-top: 200px;
+      margin-top: 0px;
       top: 0;
       left:0;
       background-repeat: no-repeat;
@@ -167,8 +170,26 @@
       justify-content: center;
       align-self: center;
       display: flex;
-      position:relative;
+ 
   
+  }
+
+  .section3::before{
+    content:"";
+    background-image: url(/src/assets/favlogo.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: 50% 430px;
+    background-blend-mode: multiply;
+    background-color: rgb(27, 49, 4);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    
   }
   .text3{
       margin-top:30px;
