@@ -60,23 +60,57 @@ function Home() {
         </div>
 
         <div className="section2">
-        
-        <div className="text">
+          
+          <div className="text">
  
-             <h1>Why Choose Us?</h1>
-         
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                 Hic ad inventore, natus quos earum molestias facere sed
-                 quaerat error illo veniam? Sed, atque. Sit, dolorem consequuntur
+               <h1>Why Choose Us?</h1>
+          
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                   Hic ad inventore, natus quos earum molestias facere sed
+                   quaerat error illo veniam? Sed, atque. Sit, dolorem consequuntur
+                   minima autem neque suscipit!
+                 <br/>
+                 <br/>
+                 Sed, atque. Sit, dolorem consequuntur
                  minima autem neque suscipit!
-               <br/>
-               <br/>
-               Sed, atque. Sit, dolorem consequuntur
-               minima autem neque suscipit!
-             
-             
-             </p>
+
+
+               </p>
+          </div>
+ 
         </div>
+     <div className="section3">
+          <div className="text3">
+
+                <h1>OUR VALUES</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magni quo dicta exercitationem <br/> 
+                    Illo, excepturi. Error in soluta earum alias tempora! 
+                    Minima beatae alias laudantium molestias inventore.
+                </p>
+
+
+                </div>
+
+                <div className="values">
+                <div className="value1">
+                    <h2>HONESTY</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magni quo dicta exercitationem</p>
+                </div>
+                <div className="value2">
+                    <h2>INTEGRITY</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magni quo dicta exercitationem</p>
+                </div>
+                <div className="value3">
+                    <h2>DIVERSITY</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magni quo dicta exercitationem</p>
+                </div>
+            </div>
+       
  
      </div>
 

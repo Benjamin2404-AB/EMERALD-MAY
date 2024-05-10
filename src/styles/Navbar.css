@@ -3,6 +3,7 @@
     background-color: rgba(27, 49, 4,1);
     height:50px;
     margin-top: 50px;
+    z-index: 1000;
 }
 .line{
     
@@ -107,8 +108,9 @@ ul button > :hover{
         max-width: 100%;
         width: 120%;
     }
+    
     #opened-nav{
-        height: 500px;
+        height: 100vh;
         background-color: rgba(27, 49, 4, 0.569)
     }
     ul .tabs{
@@ -117,7 +119,7 @@ ul button > :hover{
         background-color:  rgba(1, 31, 5, 0.538) ;
         width:450px;
         text-align: center;
-        height: 500px;
+        height: 100vh;
         transform: translateX(20%);
         background-blend-mode: multiply;
         
@@ -172,7 +174,7 @@ ul button > :hover{
         
     }
     .Navbar{
-        margin-top: 20px;
+        margin-top: 0px;
         position: sticky;
         overflow-y: hidden;
         overflow-x: hidden
