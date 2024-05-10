@@ -142,6 +142,7 @@
 }
 
 
+
 .section3{
     /*
       z-index: 1;
@@ -353,16 +354,16 @@
        display: block;
        margin:0 auto;
        transform: translateY(100vw);
-       width:40vw;
-        height:8%;
+       width:35vw;
+        height:7%;
         background-color:transparent;
     }
     .primB:hover{
         background-color: #b38104;
     }
     .primA{
-        width:40vw;
-        height:8%;
+        width:35vw;
+        height:7%;
         background-color:#b38104;
         position: relative;
         display: block;
@@ -379,7 +380,7 @@
         display: flexbox;
         justify-content: center;
         align-items: center;
-        margin-top: 200px;
+        margin-top: 220px;
     }
     .text h1{
         
@@ -389,6 +390,7 @@
         position: relative;
         text-align: center;
         color:#b38104;
+        
       
     
     
@@ -415,6 +417,14 @@
         position: relative;
         
     }
+    .cards{
+        margin-top: 20px;
+    }
+    .section2{
+        background-size:190px;
+        background-position:0px 300px;
+    }
+
     
 .section3{
    

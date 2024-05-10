@@ -43,7 +43,7 @@ function Home() {
         buttonText="Click Me"
         borderRadius="4px"
         />
-        <div> 
+        <div className='cards'> 
           {ServicesList.map((item,key)=>{
                 return (
                 
