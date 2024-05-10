@@ -92,7 +92,7 @@ ul button{
     cursor: pointer;
     display: none;
     
-    
+   
    
 }
 ul button > :hover{
@@ -102,7 +102,11 @@ ul button > :hover{
 }
  
 
-
+@media only screen and (width: 414px){
+    ul button{
+        margin-right: 4px ;
+    }
+}
 @media only screen and (max-width:450px){
     body{
         max-width: 100%;
